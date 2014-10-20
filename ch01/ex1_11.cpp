@@ -15,11 +15,8 @@ int main()
 		val_big = tmp;
 	}
 	
-	while (val_small <= val_big)
-	{
-		std::cout << val_small << std::endl;
-		++val_small;
-	}
+	for (int i = val_small;i <= val_big;++i)
+		std::cout << i << std::endl;
 	
 	return 0;
 }
